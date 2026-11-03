@@ -18,4 +18,5 @@ def calculate_bmi(height, weight):
         return 1
 
 
-result = calculate_bmi(weight =57, height =1.73)
+if __name__ == "__main__":
+    calculate_bmi(weight=57, height=1.73)
